@@ -1,4 +1,9 @@
 #!/usr/bin/python 3
 
-age= input('What is your age? ')
-print('You are ' + age + ' years old')
+def age()
+    age= input('What is your age? ')
+    print('You are ' + age + ' years old')
+    
+    
+if '__name__' == '__main__':
+    age()
